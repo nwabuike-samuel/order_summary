@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
@@ -15,49 +17,43 @@
   </style>
 </head>
 <body>
-
-<<<<<<< HEAD
-  <img src="images/illustration-hero.svg" alt="hero image">
-
-  <h1>Order Summary</h1>
-
-  <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
-    device anywhere you like!</p>
-
-  <img src="/images/icon-music.svg" alt="music-icon">
-  <p>Annual Plan
-    <br>
-    $59.99/year
-  </p>
+  <div class="card text-center rounded-3" style="width: 18rem;">
+    <img src="images/illustration-hero.svg" alt="hero image">
+    <div class="card-body">
+      <h4 class-title>Order Summary</h4>
+      <p class="card-text">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+      <!-- <div class="container-sm bg-light">
+        <div class="row align-items-md-center">
+          <div class="col">
+            <img src="/images/icon-music.svg" alt="music-icon" width="50px">
+          </div>
+          <div class="col">
+            <h6 class="list-inline-item">Annual Plan</h6>
+            <p class="list-inline-item">$59.99/year</p>
+          </div>
+          <div class="col">
+            <a href="#" class="btn btn-link">Change</a>
+          </div>
+        </div>  
+      </div> -->
+      <div class="bg-light d-inline-block p-2 rounded-3">
+        <img src="/images/icon-music.svg" alt="music-icon" width="50px" class="d-inline float-start">
+        <span class="d-inline float-start p-1">
+          <h6 class="">Annual Plan</h6>
+          <p class="">$59.99/year</p>
+        </span>
+        <a href="#" class="btn btn-link d-inline float-end p-2">Change</a>
+      </div>
+        <input type="button" name="payment" value="Proceed to Payment" class="btn btn-primary shadow rounded-3 d-block m-3">
+        <input type="button" name="cancel" value="Cancel Order" class="btn btn-light d-block m-3">
+    </div>
+  </div>
   
-  <a href="#">Change</a>
 
-  <input type="button" name="payment" value="Proceed to Payment">
-  <input type="button" name="cancel" value="Cancel Order">
-  
-  
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/nwabuike-samuel">Samuel Nwabuike</a>.
-=======
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
->>>>>>> 65a68d1203bfa60d6ed2e59e99ae0d4af7d4fdfb
   </div>
 </body>
 </html>
