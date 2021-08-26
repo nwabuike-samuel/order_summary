@@ -6,6 +6,32 @@ body{
     font-size: 16px;
 }
 
-mybtn{
-    color: ;
+.mybtn-pay{
+    background-color: hsl(245, 75%, 52%);
+    
+}
+
+.mybtn-pay:hover{
+    background-color: hsla(245, 75%, 52%, 0.65);
+}
+
+.mybtn-cancel{
+    color: hsla(223, 47%, 23%, 0.4);
+    background-color: hsl(225, 100%, 98%);
+    
+    
+}
+
+.mybtn-cancel:hover{
+    color: hsla(223, 47%, 23%, 0.85);
+    background-color: hsl(225, 100%, 98%);
+    /* background-color: hsla(245, 75%, 52%, 0.65);*/
+} 
+
+.mybtn-change{
+    color: hsl(245, 75%, 52%);
+}
+
+.mybtn-change:hover{
+    color: hsla(245, 75%, 52%, 0.5);
 }
