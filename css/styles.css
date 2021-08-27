@@ -8,6 +8,10 @@ body{
 
 .mybtn-pay{
     background-color: hsl(245, 75%, 52%);
+    color: white;
+    width: 100%;
+    box-shadow: hsla(245, 75%, 52%, 0.5);
+    border-radius: 10px !important;
     
 }
 
@@ -18,6 +22,7 @@ body{
 .mybtn-cancel{
     color: hsla(223, 47%, 23%, 0.4);
     background-color: hsl(225, 100%, 98%);
+    width: 100% !important;
     
     
 }
@@ -35,3 +40,12 @@ body{
 .mybtn-change:hover{
     color: hsla(245, 75%, 52%, 0.5);
 }
+
+p{
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+}
+
+/* .card{
+    border-radius: 15px !important;
+} */

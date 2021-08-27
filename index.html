@@ -20,40 +20,42 @@
   </style>
 </head>
 <body>
-  <div class="card text-center rounded-3 position-absolute top-50 start-50 translate-middle" style="width: 18rem;">
-    <img src="images/illustration-hero.svg" alt="hero image">
-    <div class="card-body">
-      <h4 class-title>Order Summary</h4>
-      <p class="card-text">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
-      <!-- <div class="container-sm bg-light">
-        <div class="row align-items-md-center">
-          <div class="col">
-            <img src="/images/icon-music.svg" alt="music-icon" width="50px">
-          </div>
-          <div class="col">
-            <h6 class="list-inline-item">Annual Plan</h6>
-            <p class="list-inline-item">$59.99/year</p>
-          </div>
-          <div class="col">
-            <a href="#" class="btn btn-link">Change</a>
-          </div>
-        </div>  
-      </div> -->
-      <div class="bg-light d-inline-block p-2 rounded-3">
+  <div class="card text-center position-absolute top-50 start-50 translate-middle" style="width: 25rem;">
+    <img src="images/illustration-hero.svg" alt="hero image" class="rounded-top">
+    <div class="container ">
+      <div class="card-body rounded-end">
+        <h1 class-title>Order Summary</h1>
+        <p class="card-text">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+        <div class="container-sm bg-light">
+          <div class="row align-items-md-center">
+            <div class="col">
+              <img src="/images/icon-music.svg" alt="music-icon" width="50px">
+            </div>
+            <div class="col">
+              <h6 class=""><b>Annual Plan</b></h6>
+              <p class="">$59.99/year</p>
+            </div>
+            <div class="col">
+              <a href="#" class="mybtn-change btn btn-link d-inline float-end p-2 ">Change</a>
+            </div>
+          </div>  
+        </div>
+        <div class="d-grid gap-2 col mx-auto">
+          <input type="button" name="payment" value="Proceed to Payment" class="mybtn-pay btn shadow rounded-3 d-block m-1">
+          <input type="button" name="cancel" value="Cancel Order" class=" mybtn-cancel btn btn-light d-block m-1 w-50">
+        </div>
+    </div>
+    
+      <!-- <div class="bg-light d-inline-block rounded-3 w-100">
         <img src="/images/icon-music.svg" alt="music-icon" width="50px" class="d-inline float-start">
         <span class="d-inline float-start p-1">
           <h6 class="">Annual Plan</h6>
           <p class="">$59.99/year</p>
         </span>
         <a href="#" class=" mybtn-change btn btn-link d-inline float-end p-2">Change</a>
-      </div>
-        <input type="button" name="payment" value="Proceed to Payment" class="mybtn-pay btn btn-primary shadow rounded-3 d-block m-3">
-        <input type="button" name="cancel" value="Cancel Order" class=" mybtn-cancel btn btn-light d-block m-3">
+      </div> -->
     </div>
   </div>
-  
-
-  
   <div class="attribution position-absolute bottom-0 start-50 translate-middle-x">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/nwabuike-samuel">Samuel Nwabuike</a>.
