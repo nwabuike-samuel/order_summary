@@ -49,3 +49,15 @@ p{
 /* .card{
     border-radius: 15px !important;
 } */
+
+@media only screen and (max-width: 375px){
+    body{
+        background-image: url(../images/pattern-background-mobile.svg);
+        
+    }
+
+    .card{
+        width: 18rem !important;
+    }
+
+}
